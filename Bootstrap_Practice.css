@@ -1,6 +1,10 @@
 #Nameplate {
-	font-size: 60px;
+	font-size: 32px;
 	font-weight: bold;
+}
+
+#school {
+	font-weight: normal;
 }
 
 .photo1{
@@ -15,8 +19,7 @@
 }
 
 #name {
-	text-height: 50%;
-	font-weight: 600;
+	font-weight: 300;
 }
 
 #headshot {
@@ -29,6 +32,39 @@
 
 #basic_information {
 	position: absolute;
-	top: 5%;
+	top: 1%;
+	width: 100%;
+	display:block;
+	font-weight: 300;
+}
+
+.nav {
+	margin-top: 1%;
+	display: block;
+	font-size: 2em;
+	background-color:#D88443 ;
+	opacity:.75;
 	width: 100%;
 }
+
+.nav a {
+	color: white;
+	margin-right: 1em;
+	height:100%;
+
+}
+
+.nav a:hover {
+	background-color:#C67641;
+}
+
+/*#mask {
+    opacity: 0.5;
+
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='svgMask'><feGaussianBlur stdDeviation='10' /></filter></svg>#svgMask");
+}*/
